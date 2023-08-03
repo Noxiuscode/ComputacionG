@@ -20,12 +20,13 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: adlkma
+  m_Name: adlkma 1 (Dark)
   m_Shader: {fileID: -6465566751694194690, guid: 3ba743e17be181e418dd7d7f76d0f346,
     type: 3}
   m_ValidKeywords:
   - _SURFACE_TYPE_TRANSPARENT
-  m_InvalidKeywords: []
+  m_InvalidKeywords:
+  - _ALPHAMODULATE_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -56,13 +57,13 @@ Material:
     m_Ints: []
     m_Floats:
     - _AlphaClip: 0
-    - _Blend: 2
+    - _Blend: 3
     - _CastShadows: 1
     - _Cull: 2
-    - _DstBlend: 1
+    - _DstBlend: 0
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _SrcBlend: 5
+    - _SrcBlend: 2
     - _Surface: 1
     - _ZTest: 4
     - _ZWrite: 0
